@@ -1,0 +1,1 @@
+echo off && gcc -c main.c && gcc -c algoritmos.c && gcc -o ordenacao.exe main.o algoritmos.o && echo on && start ordenacao.exe
